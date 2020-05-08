@@ -1,0 +1,49 @@
+.footer-main {
+    font-family: 'Karla', sans-serif;
+    font-weight: 600;
+    background-color: hsl(0, 0%, 98%);
+    /* margin: 6em; */
+    padding: 4em 11em 4em 11em;
+    /* margin-left: 10em;
+    margin-right: 10em; */
+}
+.footer-main .ant-divider-horizontal {
+    height: 1px;
+    background-color: hsl(273, 4%, 51%);
+    margin-top: 1em;
+}
+
+.footer-head {
+    color: hsl(273, 4%, 51%);
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: .7em;
+}
+
+.footer-sub {
+    color: black;
+
+}
+.footer-main .footer-sub:hover {
+    text-decoration: underline;
+}
+.footer-social:hover {
+    color: black;
+    fill: currentColor;
+}
+.footer-main {
+    background-image: url("bg-pattern-footer-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    
+}
+.footer-links a {
+    color: #837D88;
+}
+.footer-links a:hover{
+    color: black;
+}
+.footer-links .fab{
+    font-size: 1.8em;
+
+}

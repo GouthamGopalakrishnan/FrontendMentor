@@ -1,0 +1,30 @@
+.different-main {
+    margin: 21em 11em 6em 11em;
+    
+}
+.different-text {
+    font-family: 'DM Serif Display', serif;
+    font-size: 5em;
+    color: black;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+.different-head {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.9em;
+    color: black;
+    margin: 1em 0em 1em 0em;
+    /* padding-top: 5em; */
+}
+.different-sub {
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: hsl(0, 4%, 60%)
+}
+.different-main .ant-divider-horizontal {
+    width: 14%;
+    height: 2px;
+    min-width: 0;
+    background-color:  hsl(277, 17%, 85%);
+}

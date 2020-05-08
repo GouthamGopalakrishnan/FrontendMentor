@@ -1,0 +1,90 @@
+.bg-violet .jumbotron{
+    background-color: hsl(256, 26%, 20%);
+    height: 40em;
+    background-repeat: no-repeat;
+    padding: 5em 11em 6em 11em;
+    border-radius: 0;
+    display: inline-block;
+    position: relative;
+    
+}
+.bg-property {
+    background-repeat: no-repeat;
+}
+.jumbotron-head {
+    font-family: 'DM Serif Display', serif;
+    color: white;
+    font-size: 5em;
+    line-height: .8em;
+    z-index: 100;
+}
+.bg-violet .ant-divider-horizontal {
+    width: 25%;
+    height: 1.5px;
+    min-width: 0;
+    background-color:  hsl(277, 17%, 85%);
+    margin-top: 0em;
+
+}
+.jumbotron-text {
+    color: white;
+    font-size: 15px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    padding-top: 0em;
+    line-height: 1.75em;
+    z-index: 100;
+    
+}
+.jumb-button {
+    margin-top: .85em;
+    
+}
+.bg-violet .btn-primary {
+    color: #fff;
+    background-color: #2d2640;
+    border-color: #ffffff;
+    font-family: 'Karla', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    align-content: center;
+    border-radius: 0;
+    z-index: 1;
+    position: relative;
+}
+.bg-violet .btn-primary:hover {
+    background-color: white;
+    color: black;
+    z-index: 1;
+}
+
+.bg-violet .jumbotron{
+    display: inline-block;
+    position: relative;
+}
+.bg-violet .jumbotron:after {
+    content: '';
+    position: absolute;
+    background-size: cover;
+    background-attachment: initial;
+    background-color: hsl(216, 30%, 68%);
+    top: 0;
+    right: 0;
+    bottom: 0; left: 0;
+    z-index: 0;
+    background: url("bg-pattern-intro-right-desktop.svg") no-repeat;
+    background-position: right -6em;
+  }
+  .bg-violet .bg-property:after {
+    content: '';
+    position: absolute;
+    background-size: cover;
+    background-attachment: initial;
+    background-color: hsl(216, 30%, 68%);
+    top: 0;
+    right: 0;
+    bottom: -30em; left: 0;
+    background: url("bg-pattern-intro-left-desktop.svg") no-repeat;
+    background-position: left 28em ;
+  }

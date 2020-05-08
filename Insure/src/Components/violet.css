@@ -1,0 +1,53 @@
+.violet-main{
+    background-color: hsl(256, 26%, 20%);
+    height: 15em;
+    
+    margin: 6em 10em 6em 10em;
+}
+/* .violet-bg {
+    background-repeat: no-repeat;
+    
+} */
+.violet-cont {
+    color: white;
+    font-family: 'DM Serif Display', serif;
+    font-size: 3em;
+    letter-spacing: .05em;
+    line-height: .85em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    padding-left: 2em;
+    
+}
+.violet-main .btn-primary {
+    color: #fff;
+    background-color: transparent;
+    border-color: #ffffff;
+    border-width: 1px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 0;
+    margin-top: 6em;
+    margin-bottom: 6em;
+    margin-left: 15em;
+    position: relative;
+}
+.violet-main .btn-primary:hover {
+    background-color: white;
+    color: black;
+
+}
+.violet-main .violet-bg {
+    /* content: ''; */
+    /* position: absolute;
+    background-size: cover;
+    background-attachment: initial; */
+    /* background-color: hsl(216, 30%, 68%); */
+    /* top: 0;
+    right: 0;
+    bottom: 0; left: 0; */
+    background-image: url("bg-pattern-intro-right-desktop.svg") ;
+    background-repeat: no-repeat;
+    background-position: right ;
+  }
