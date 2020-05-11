@@ -1,0 +1,83 @@
+.fylo-sec-image {
+    padding-top: 2em;
+   
+}
+.fylo-sec-text {
+    padding-top: 1em;
+    color: white;
+    font-size: 2.3em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    position: relative;
+}
+/* .fylo-sec-text {
+    background-image: url('bg-curvy-desktop.svg');
+    bottom: -30em;top: 20em;
+    left: 0;right: 0;
+    background-position: left bottom;
+}  */
+.fylo-sec-subtext {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-top: 1em;
+    font-size: .5em;
+    position: relative;
+}
+@media only screen and (max-width: 600px) {
+    .fylo-sec-text {
+        background-image: url('../Components/Images/bg-curvy-mobile.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+        font-size: 2em;
+        /* background-color: hsl(218, 28%, 13%); */
+    }
+}
+@media only screen and (max-width: 600px) {
+    .fylo-secondary-main {
+        /* padding: 1em 1em 1em 1em; */
+
+        
+       
+        
+    }
+}
+@media only screen and (max-width: 600px) {
+    .fylo-sec-subtext {
+        background-color: hsl(218, 28%, 13%);
+        padding: 1em 1em 1em 1em;
+        font-size: .36em;
+    }
+}
+
+.fylo-sec-text .btn-primary {
+    background-color:hsl(198, 60%, 50%);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    border-color:hsl(198, 60%, 50%);
+    border-radius: 1.8em;
+    padding-left: 5em;
+    padding-right:5em ;
+    font-size: .4em;
+    margin-top: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+}
+.fylo-sec-image:after {
+    content: '';
+    position: absolute;
+    background-size: cover;
+    background-attachment: initial;
+    background-color: hsl(216, 30%, 68%);
+    top: 0;
+    right: 0;
+    bottom: -35em; left: 0;
+    background: url('bg-curvy-desktop.svg') no-repeat;
+    background-position:  bottom;
+    
+  }
+  .fylo-secondary-main {
+      margin-bottom: 6em;
+      padding-bottom: 5em;
+  }
