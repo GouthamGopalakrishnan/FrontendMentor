@@ -31,4 +31,8 @@
     .fylo-fouricons-main{
         padding:2em  2em 2em 2em ;
     }
+    .fylo-fouricons-main .col-12 {
+        padding-left: 0em;
+        padding-right: 0em;
+    }
 }

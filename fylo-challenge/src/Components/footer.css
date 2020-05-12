@@ -1,0 +1,14 @@
+.footer-main-layout {
+    background-color: hsl(216, 53%, 9%);
+    padding: 2em 3em 2em 6.5em;
+}
+.footer-main-layout .row {
+    margin-right:0 ;
+    margin-left: 0;
+}
+.footer-icons {
+    padding-right: 1em;
+}
+.footer-main-layout .col-sm-4,.col-sm-3 ,.col-sm {
+    padding: 0;
+}

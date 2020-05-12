@@ -1,0 +1,64 @@
+.Fylo-productive-main {
+    background-color: hsl(218, 28%, 13%);
+    padding-top:3em ;
+    padding:3em 4em 3em 4em ;
+}
+.Fylo-productive-main .row {
+    margin-left: 0em;
+    margin-right: 0em;
+}
+.fylo-prod-head {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.3em;
+    font-weight: 700;
+    padding-top: 3em;
+    
+}
+.fylo-prod-sub {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size:1em;
+    padding-top: 1em;
+}
+.fylo-col .col-12 ,.col-sm {
+    padding-right: 3em;
+}
+.fylo-prod-link {
+    color:hsl(176, 68%, 64%);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    /* text-decoration: underline; */
+}
+.fylo-prod-link hr {
+    /* margin-top: 1rem; */
+    /* margin-bottom: 1rem; */
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+    width: 30%;
+    color: white;
+    margin: 0;
+    background-color: hsl(176, 68%, 64%);
+}
+@media only screen and (max-width: 600px) {
+    .fylo-prod-head {
+        font-size: 2.2em;
+        padding-top: 1em;
+    }
+    .fylo-prod-sub {
+        font-size: .7em;
+        padding-top: 1em;
+    }
+    .fylo-col .col-12 ,.col-sm {
+        padding-right: 1em;
+    }
+    .Fylo-productive-main {
+        background-color: hsl(218, 28%, 13%);
+        padding-top:5em ;
+        padding:1em 0em 1em 0em ;
+    }
+    .fylo-prod-link hr {
+        width: 50%;
+    }
+
+}
