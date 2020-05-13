@@ -6,15 +6,12 @@
     padding-left: 2em;
     padding-right: 2em;
     margin-top: 2em;
-    /* -webkit-box-shadow: 3px 3px 5px 6px hsl(217, 28%, 15%);  Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-    /* -moz-box-shadow:    3px 3px 5px 6px hsl(217, 28%, 15%);  Firefox 3.5 - 3.6 */
-    /* box-shadow:         3px 3px 5px 6px hsl(217, 28%, 15%); */
+         
     border-radius: 5px;
-    -moz-box-shadow:    3px 3px 5px 6px hsl(217, 28%, 15%);
-    -webkit-box-shadow: 3px 3px 5px 6px hsl(217, 28%, 15%);
-    box-shadow:         1px 3px 5px 6px hsl(217, 28%, 15%);
-    /* box-shadow: 12px 0 15px -4px hsl(217, 28%, 15%), -12px 0 8px -4px hsl(217, 28%, 15%); */
-    /* box-shadow: 1000px 0 1000px -500px hsl(217, 28%, 15%), 0 5px 5px -5px hsl(217, 28%, 15%); */
+    /* -moz-box-shadow:    3px 3px 5px 6px hsl(217, 28%, 15%);
+    -webkit-box-shadow: 3px 3px 5px 6px hsl(217, 28%, 15%); */
+    box-shadow:         3px 3px 0px 5px hsl(217, 28%, 15%);
+
 
 
 }
