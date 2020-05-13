@@ -11,22 +11,46 @@ function Footer() {
     return (
         <div className="footer-main-layout">
             <img src={logo} alt="logo" />
-            <div className="row">
-                <div className="col-12 col-sm-5">
+            <div className="row mt-5">
+                <div className="location col-12 col-sm-4">
+                    <div className="row">
+                        <div className="col-1 col-sm-1">
+                            <img src={location} className="footer-icons pt-2" alt="location" />
 
-                    <img src={location} className="footer-icons" alt="location" />
-                    Lorem ipsum dolor sit amet,consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore et dolore magna aliqua
+                        </div>
+                        <div className="col-11 pl-0">
+                            <p className="foot-loc">Lorem ipsum dolor sit amet,consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore  magna aliqua</p>
+
+                        </div>
+                    </div>
+
+
 
                 </div>
-                <div className="col-12 col-sm-3">
-                    <img className="footer-icons"src={mob} alt="mobile" />
-                    +1-543-123-4567 <br />
+                <div className="footer-mail col-12 col-sm-2">
+                    <table>
+                        <tr>
+                            <td>
+                                <img className="footer-icons" src={mob} alt="mobile" />
+                            </td>
+                            <td className="pl-2">
+                            +1-543-123-4567
 
-                    <img src={mail} className="footer-icons" alt="mobile" />
-                    example@fylo.com
+                            </td>
+                        </tr>
+                        <tr className="pt-5">
+                            <td>
+                                <img src={mail} className="footer-icons pt-3" alt="mobile" />
+                            </td>
+                            <td className="pt-3 pl-2" >
+                                example@fylo.com
+                            </td>
+                        </tr>
+                        
+                    </table>
                 </div>
-                <div className="col-12 col-sm-2">
-                    <p>About</p>
+                <div className="col-12 col-sm-2 pl-sm-5 ">
+                    <p>About Us</p>
                     <p>Jobs</p>
                     <p>Press</p>
                     <p>Blog</p>
@@ -36,10 +60,10 @@ function Footer() {
                     <p>Terms</p>
                     <p>Privacy</p>
                 </div>
-                <div className="col-12 col-sm-2">
-                    <i className="fab fa-facebook-f pl-2"></i>
-                    <i className="fab fa-twitter pl-2"></i>
-                    <i className="fab fa-instagram pl-2"></i>
+                <div className="col-12 col-sm-2 footer-links justify-content-center">
+                    <span class="dot justify-content-center ml-3"><i class="fab fa-facebook-f"></i></span>
+                    <span class="dot justify-content-center ml-3"><i className="fab fa-twitter"></i></span>
+                    <span class="dot justify-content-center ml-3"><i className="fab fa-instagram pl-2"></i></span>
                 </div>
             </div>
         </div>

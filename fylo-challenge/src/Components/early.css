@@ -1,0 +1,88 @@
+.early-layout-main .col-sm-7 {
+    background-color: hsl(217, 28%, 15%);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: .9em;
+    padding: 6em ;
+
+}
+.early-head {
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.early-layout-main {
+
+    width: 100%;
+}
+.early-layout-main .row {
+    margin-right: 0;
+}
+.early-col {
+    border-radius: 5px;
+    -moz-box-shadow:    3px 3px 3px 6px hsl(217, 28%, 15%);
+    -webkit-box-shadow: 3px 3px 3px 6px hsl(217, 28%, 15%);
+    box-shadow:         1px 3px 3px 6px hsl(217, 28%, 15%);
+}
+
+
+.early-layout-main .input-group>.form-control:not(:last-child) {
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-top-left-radius: 2em;
+    border-radius: 2em;
+}
+
+.early-layout-main .input-group>.input-group-append>.btn {
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+}
+
+.early-layout-main .btn-outline-secondary {
+    color: #ffffff;
+    background-color: hsl(176, 68%, 64%);
+    background-image: none;
+    border-color: #202a3c;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.early-layout-main .btn {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: .7em;
+}
+.early-layout-main .form-control {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: .9em;
+    padding-left: 2em;
+}
+@media only screen and (max-width: 600px)  {
+    .early-layout-main .col-10  {
+        padding: 3em 1em 3em 1em;
+
+    }
+    .early-layout-main .input-group>.form-control { 
+        width: 100%;
+        /* margin-right: 2em;
+        margin-left: 2em; */
+    }
+    .early-layout-main .input-group-append {
+        width: 100%;
+    }
+    .early-layout-main .btn {
+        width: 100%;
+        margin-top: 1em;
+    }
+    .early-head {
+        font-weight: 700;
+        font-size: 1.6em;
+    }
+    .early-layout-main .btn {
+        padding-top: 1em;
+        padding-bottom :1em ;
+    }
+}

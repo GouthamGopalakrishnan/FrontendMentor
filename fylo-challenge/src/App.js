@@ -7,6 +7,7 @@ import Fouricons from './Components/fouricons';
 import Productive from './Components/productive';
 import Quotes from './Components/quotes';
 import Footer from './Components/footer';
+import Early from './Components/early';
 
 function App() {
   return (
@@ -17,8 +18,11 @@ function App() {
         <Secondary />
         <Fouricons />
         <Productive />
-        <Quotes />
-        <Footer />
+        <div className="fylo-overlay">
+          <div className="fylo-1"><Quotes /></div>
+          <div className="fylo-2 align-middle w-100"> <Early /></div>
+          <div className="fylo-3"> <Footer /></div>
+        </div>
       </div>
     </div>
   );

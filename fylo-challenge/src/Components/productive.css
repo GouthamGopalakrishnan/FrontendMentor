@@ -40,6 +40,9 @@
     margin: 0;
     background-color: hsl(176, 68%, 64%);
 }
+.prod-anchor {
+    display: inline-block;
+}
 @media only screen and (max-width: 600px) {
     .fylo-prod-head {
         font-size: 2.2em;
@@ -60,5 +63,6 @@
     .fylo-prod-link hr {
         width: 50%;
     }
+
 
 }

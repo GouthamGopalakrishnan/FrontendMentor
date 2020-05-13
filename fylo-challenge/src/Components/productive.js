@@ -12,8 +12,8 @@ function Productive() {
                 <div class="col-12 col-sm">
                     <img src={productive} className="rounded mx-auto d-block img-fluid" alt="Stay Produvtive" />
                 </div>
-                <div class="col-12 col-sm fylo-col align-middle">
-                    <h5 className="fylo-prod-head align-middle">
+                <div class="col-12 col-sm fylo-col align-middle ">
+                    <h5 className="fylo-prod-head align-middle text-center text-sm-left ">
                         Stay productive,<br />wherever you are
                     </h5>
                     <p className="fylo-prod-sub">
@@ -23,11 +23,15 @@ function Productive() {
                     {/* <p className="fylo-prod-sub">
                         
                     </p> */}
+                    <div className="prod-anchor">
                     <a className ="fylo-prod-link" href="#"  >
                         See how Fylo works <img src={linkicon} />
-                        <hr/>
-
-                    </a>
+                        <hr className="w-100"/>
+                        </a>
+                        </div>
+                        
+                        
+                    
                 </div>
 
             </div>

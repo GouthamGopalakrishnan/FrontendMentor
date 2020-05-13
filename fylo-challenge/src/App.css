@@ -9,3 +9,21 @@
   color: white;
   
 }
+
+
+.fylo-1,.fylo-3{
+  position: relative;
+ 
+}
+.fylo-2 {
+  position: absolute;
+  z-index: 3;
+  margin-top: -12em;
+  /* margin-left: 5em;
+  margin-right: 5em; */
+}
+@media only screen and (max-width: 600px) {
+  .fylo-2 {
+    margin-top: -10em;
+  }
+}

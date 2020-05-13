@@ -10,7 +10,7 @@ function Quotes() {
     return (
         <div className="quotes-main-layout">
             <div class="quotes-row row">
-                <div class="quotes-col col-12 col-sm w-100">
+                <div class="quotes-col box col-12 col-sm ">
                     <p className="quotes-text">
                         Fylo has improved our team productivity by an order of magnitude.Since making the switch our team has become a well-oiled collaboration machine.
                     </p>

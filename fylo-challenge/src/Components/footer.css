@@ -1,6 +1,9 @@
 .footer-main-layout {
     background-color: hsl(216, 53%, 9%);
-    padding: 2em 3em 2em 6.5em;
+    padding: 13em 1em 2em 6.5em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    /* font-size: .85em; */
 }
 .footer-main-layout .row {
     margin-right:0 ;
@@ -9,6 +12,52 @@
 .footer-icons {
     padding-right: 1em;
 }
-.footer-main-layout .col-sm-4,.col-sm-3 ,.col-sm {
+.footer-main-layout .col-sm-5  {
     padding: 0;
+}
+.footer-main-layout .col-sm-3  {
+    padding: 0;
+}
+.footer-main-layout .col-sm-1  {
+    padding: 0;
+}
+.footer-main-layout .col-sm-2  {
+    padding: 0;
+}
+.dot {
+    height: 35px;
+    width: 35px;
+    background-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    border-color: white;
+    border: 2px solid white;
+  }
+  .dot .fab {
+      padding: .5rem;
+  }
+  .foot-loc {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: .922em;
+  }
+  .footer-mail {
+      font-size: .75em;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .footer-main-layout {
+        background-color: hsl(216, 53%, 9%);
+        padding: 20em 1em 2em 1em;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        /* font-size: .85em; */
+    }
+    .footer-main-layout .col-12 {
+        padding-top: 2em;
+    }
+    .footer-main-layout .footer-links {
+        padding-left: 5em;
+        padding-right: 5em;
+    }
 }

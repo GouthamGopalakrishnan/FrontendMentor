@@ -1,5 +1,6 @@
 .fylo-sec-image {
     padding-top: 2em;
+    z-index: 10001;
    
 }
 .fylo-sec-text {
@@ -9,6 +10,7 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     position: relative;
+    z-index: 10001;
 }
 /* .fylo-sec-text {
     background-image: url('bg-curvy-desktop.svg');
@@ -22,10 +24,12 @@
     padding-top: 1em;
     font-size: .5em;
     position: relative;
+    z-index: 10001;
 }
 .fylo-secondary-main {
     margin-bottom: 6em;
     padding-bottom: 5em;
+    z-index: 10001;
 }
 
 
@@ -41,6 +45,7 @@
     margin-top: 1em;
     padding-top: 1em;
     padding-bottom: 1em;
+    z-index: 10000;
 
 }
 .fylo-sec-image:after {
@@ -54,6 +59,7 @@
     bottom: -35em; left: 0;
     background: url('bg-curvy-desktop.svg') no-repeat;
     background-position:  bottom;
+    z-index: 10000;
     
   }
   @media only screen and (max-width: 600px) {
@@ -63,6 +69,7 @@
         background-size: cover;
         background-position: top ;
         font-size: 2em;
+        z-index: 0;
         /* background-color: hsl(218, 28%, 13%); */
     }
     .fylo-secondary-main {

@@ -5,7 +5,7 @@
 }
 .fylo-nav-main a {
     font-family: 'Raleway', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     color: hsl(0, 0%, 100%);
     font-size: 14px;
     word-wrap: normal;
@@ -13,33 +13,30 @@
 .fylo-nav-tabs .nav-item {
     padding-left: 4rem;
 }
+.fylo-nav-main .fylo-nav-tabs {
+    margin-left: auto;
+}
 @media only screen and (max-width: 600px) {
     .fylo-nav-main .navbar {
         /* margin: 0; */
         padding: 1em 1em 1em 1em;
     }
-}
-
-@media only screen and (max-width: 600px) {
     .fylo-nav-tabs .nav-item {
         padding-left: .5em;
     
         font-size: 14px;
     }
-}
-@media only screen and (max-width: 600px) {
     .fylo-nav-main .fylo-dt-logo {
         width: 100%;
         padding: 1em 1em 1em 1em;
     }
-}
-.fylo-nav-main .fylo-nav-tabs {
-    margin-left: auto;
-}
-@media only screen and (max-width: 600px) {
     .fylo-nav-main .fylo-nav-tabs {
         margin: 0;
         padding: 0;
         
     }
 }
+
+
+
+

@@ -2,7 +2,7 @@ import React from 'react';
 
 import './navbar.css';
 import logo from '../Components/Images/logo.svg';
-import mobilelogo from '../Components/Images/icon-phone.svg';
+
 
 function FyloNavbar() {
     return (
