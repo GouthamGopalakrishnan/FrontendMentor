@@ -47,3 +47,17 @@
     font-size: 1.8em;
 
 }
+@media only screen and (max-width: 600px) {
+    .footer-main {
+        padding: 4em 1em 4em 1em;
+    }   
+    .footer-links {
+        margin-top: 1.5em;
+    }
+    .footer-main {
+        background-image: url("../Components/images/bg-pattern-footer-mobile.svg");
+        background-repeat: no-repeat;
+        background-position: left top;
+        
+    }
+}

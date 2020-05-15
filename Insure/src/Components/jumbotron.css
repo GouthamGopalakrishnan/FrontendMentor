@@ -1,8 +1,8 @@
-.bg-violet .jumbotron{
+.bg-violet-main .jumbotron{
     background-color: hsl(256, 26%, 20%);
     height: 40em;
     background-repeat: no-repeat;
-    padding: 5em 11em 6em 11em;
+    padding: 5em 15em 6em 11em;
     border-radius: 0;
     display: inline-block;
     position: relative;
@@ -18,7 +18,7 @@
     line-height: .8em;
     z-index: 100;
 }
-.bg-violet .ant-divider-horizontal {
+.bg-violet-main .ant-divider-horizontal {
     width: 25%;
     height: 1.5px;
     min-width: 0;
@@ -40,7 +40,7 @@
     margin-top: .85em;
     
 }
-.bg-violet .btn-primary {
+.bg-violet-main .btn-primary {
     color: #fff;
     background-color: #2d2640;
     border-color: #ffffff;
@@ -53,17 +53,17 @@
     z-index: 1;
     position: relative;
 }
-.bg-violet .btn-primary:hover {
+.bg-violet-main .btn-primary:hover {
     background-color: white;
     color: black;
     z-index: 1;
 }
 
-.bg-violet .jumbotron{
+.bg-violet-main .jumbotron{
     display: inline-block;
     position: relative;
 }
-.bg-violet .jumbotron:after {
+.bg-violet-main .bg-leftpattern:after {
     content: '';
     position: absolute;
     background-size: cover;
@@ -76,7 +76,7 @@
     background: url("bg-pattern-intro-right-desktop.svg") no-repeat;
     background-position: right -6em;
   }
-  .bg-violet .bg-property:after {
+  .bg-violet-main .jumbotron:after {
     content: '';
     position: absolute;
     background-size: cover;
@@ -87,4 +87,60 @@
     bottom: -30em; left: 0;
     background: url("bg-pattern-intro-left-desktop.svg") no-repeat;
     background-position: left 28em ;
+  }
+
+  /* .bg-violet-main .col-sm-12 {
+      text-align: center;
+  }*/
+  .bg-violet-main .col-md-3 {
+        padding-left: 0;     
+  } 
+  .bg-violet-main .col-md-6 {
+      padding-right: 0em;
+      width: 100%;
+      padding-left: 0em;
+  }
+  @media only screen and (max-width: 600px) {
+    .bg-violet-main {
+        background-image: url("../Components/images/bg-pattern-intro-left-mobile.svg");
+        background-repeat: no-repeat;
+        background-position: top left;
+    }
+    .bg-violet-main .jumbotron:after {
+        content: '';
+        position: absolute;
+        background-size: cover;
+        background-attachment: initial;
+        background-color: hsl(216, 30%, 68%);
+        top: 0;
+        right: 0;
+        bottom: 0; left: 0;
+        z-index: 0;
+        background: url("../Components/images/bg-pattern-intro-left-mobile.svg") no-repeat;
+        background-position: top left  ;
+    }
+    .bg-violet-main .jumbotron{
+        padding: 2em 2.3em 1em 2.3em;
+        height: fit-content;
+    }    
+    .jumbotron-head {
+        font-size: 2.5em;
+    }
+    .jumbotron-text {
+        font-size: 1em;
+        padding-top: 2em;
+    }
+    .bg-violet-main .bg-leftpattern:after {
+        content: '';
+        /* position: absolute; */
+        /* background-size: cover; */
+        background-attachment: initial;
+        background-color: hsl(216, 30%, 68%);
+        top: 0;
+        right: 0;
+        bottom: 0; left: 0;
+        z-index: 0;
+        background: url("./images/bg-pattern-intro-right-mobile.svg") no-repeat;
+        background-position: right bottom -15em;
+    }
   }

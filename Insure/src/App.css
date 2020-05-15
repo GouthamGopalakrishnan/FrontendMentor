@@ -1,1 +1,15 @@
 @import '~antd/dist/antd.css';
+
+.App .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.app-layout {
+    position: relative;
+    z-index: 3;
+}
+.app-layout2 {
+    position: absolute;
+    z-index: 1;
+}

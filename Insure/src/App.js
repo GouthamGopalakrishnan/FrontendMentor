@@ -9,11 +9,16 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Jumbotron />
-      <Different />
-      <Violet />
-      <Footer />
+      <div className="container-fluid w-100">
+        <Navbar />
+        <div className="app-layout">
+          <Jumbotron className="app-layout"/>
+          <Different className="app-layout2" />
+        </div>
+
+        <Violet />
+        <Footer />
+      </div>
     </div>
   );
 }
